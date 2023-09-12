@@ -127,11 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\ch05-1_example.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ch05-2_sort.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ch05_array.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ch06_string.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\ch07_structure.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
   </ItemGroup>
   <ItemGroup>
