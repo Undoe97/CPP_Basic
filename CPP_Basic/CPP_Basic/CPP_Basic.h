@@ -32,3 +32,4 @@ void Structure();
 void CallByValue();
 
 void Enum();
+void PointerDefine();

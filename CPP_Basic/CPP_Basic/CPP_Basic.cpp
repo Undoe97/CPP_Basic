@@ -5,10 +5,8 @@ using namespace std;
 
 int main()
 {
-   
-	
-	
-	cout << "Hello SeSac!\n";
+	PointerDefine();
+
 }
 
 
