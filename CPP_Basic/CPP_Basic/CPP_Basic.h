@@ -33,3 +33,6 @@ void CallByValue();
 
 void Enum();
 void PointerDefine();
+void DynamicVariable();
+void BallInsert();
+void BallSwap();

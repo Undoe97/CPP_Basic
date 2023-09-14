@@ -54,13 +54,27 @@
     <ClCompile Include="ch06_string.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Ch09_Dynamic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BallInster.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ch10_Class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CPP_Basic.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Ch10_Class.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Guide.md" />
+    <None Include="Guide.md">
+      <Filter>리소스 파일</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BallInster.cpp" />
     <ClCompile Include="branch.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -142,6 +143,8 @@
     <ClCompile Include="ch07_structure.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Ch09_Dynamic.cpp" />
+    <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
     <ClCompile Include="loofFor.cpp" />
     <ClCompile Include="loop.cpp">
@@ -156,6 +159,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Ch10_Class.h" />
     <ClInclude Include="CPP_Basic.h" />
   </ItemGroup>
   <ItemGroup>
