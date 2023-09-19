@@ -127,7 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Arithmatic.cpp" />
+    <ClCompile Include="Atv.cpp" />
+    <ClCompile Include="Auto.cpp" />
     <ClCompile Include="BallInster.cpp" />
+    <ClCompile Include="Bike.cpp" />
     <ClCompile Include="branch.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -144,6 +149,10 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="Ch09_Dynamic.cpp" />
+    <ClCompile Include="Ch11_ArrayClass.cpp" />
+    <ClCompile Include="Ch12_StringClass.cpp" />
+    <ClCompile Include="Ch13_Vector.cpp" />
+    <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
     <ClCompile Include="loofFor.cpp" />
@@ -159,8 +168,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ch10_Class.h" />
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Arithmatic.h" />
+    <ClInclude Include="Atv.h" />
+    <ClInclude Include="Auto.h" />
+    <ClInclude Include="Bike.h" />
+    <ClInclude Include="Ch10_Class.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="CPP_Basic.h" />
+    <ClInclude Include="Vehicle.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Guide.md" />

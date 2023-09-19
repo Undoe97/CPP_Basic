@@ -1,4 +1,4 @@
-
+#pragma once
 void InputOutput();
 void Const();
 void DataType();
@@ -36,3 +36,7 @@ void PointerDefine();
 void DynamicVariable();
 void BallInsert();
 void BallSwap();
+
+void ArrayClass();
+void StringClass();
+void VectorClass();
