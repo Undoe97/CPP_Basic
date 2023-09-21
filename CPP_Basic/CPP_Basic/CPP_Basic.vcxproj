@@ -152,6 +152,11 @@
     <ClCompile Include="Ch11_ArrayClass.cpp" />
     <ClCompile Include="Ch12_StringClass.cpp" />
     <ClCompile Include="Ch13_Vector.cpp" />
+    <ClCompile Include="Ch15_PureVirtualChild.cpp" />
+    <ClCompile Include="Ch15_PureVirtualChild.h" />
+    <ClCompile Include="Ch15_PureVirtualParent.h" />
+    <ClCompile Include="Ch16_Template.cpp" />
+    <ClCompile Include="DiceGame.cpp" />
     <ClCompile Include="Vehicle.cpp" />
     <ClCompile Include="Ch10_Class.cpp" />
     <ClCompile Include="CPP_Basic.cpp" />
@@ -166,6 +171,8 @@
     <ClCompile Include="variable.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="VirtualChild.cpp" />
+    <ClCompile Include="VirtualParent.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
@@ -177,6 +184,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="Ch14_VirtualChild.h" />
+    <ClInclude Include="Ch14_VirtualParent.h" />
     <ClInclude Include="CPP_Basic.h" />
     <ClInclude Include="Vehicle.h" />
   </ItemGroup>

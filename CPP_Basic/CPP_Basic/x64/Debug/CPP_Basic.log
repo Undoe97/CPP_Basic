@@ -1,2 +1,9 @@
-﻿  Ch13_Vector.cpp
-  CPP_Basic.vcxproj -> C:\Users\ASUS\Documents\CPP_Basic\CPP_Basic\x64\Debug\CPP_Basic.exe
+﻿  CPP_Basic.cpp
+C:\Users\ASUS\Documents\CPP_Basic\CPP_Basic\CPP_Basic\CPP_Basic.cpp(60,10): error C2672: 'SumType': 일치하는 오버로드된 함수가 없습니다.
+C:\Users\ASUS\Documents\CPP_Basic\CPP_Basic\CPP_Basic\CPP_Basic.h(46,3): message : 'T SumType(T,T)'일 수 있습니다.
+C:\Users\ASUS\Documents\CPP_Basic\CPP_Basic\CPP_Basic\CPP_Basic.cpp(60,10): message : 'T SumType(T,T)': 템플릿 매개 변수 'T'이(가) 모호합니다.
+C:\Users\ASUS\Documents\CPP_Basic\CPP_Basic\CPP_Basic\CPP_Basic.cpp(60,10): message : 'float'일 수 있습니다.
+C:\Users\ASUS\Documents\CPP_Basic\CPP_Basic\CPP_Basic\CPP_Basic.cpp(60,10): message : 또는      'int'
+C:\Users\ASUS\Documents\CPP_Basic\CPP_Basic\CPP_Basic\CPP_Basic.cpp(60,10): message : 'T SumType(T,T)': 'float'에서 'T'에 대한 템플릿 인수를 추론할 수 없습니다.
+  Ch16_Template.cpp
+  코드를 생성하고 있습니다...

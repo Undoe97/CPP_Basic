@@ -40,3 +40,9 @@ void BallSwap();
 void ArrayClass();
 void StringClass();
 void VectorClass();
+int SumNum(int, int);
+float SumNum(float, float);
+template <typename T>
+T SumType(T, T);
+
+void Dice(int, int, int, int);

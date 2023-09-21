@@ -8,7 +8,10 @@
 #include "Atv.h"
 #include "Arithmatic.h"
 #include "Auto.h"
-
+#include "Ch14_VirtualParent.h"
+#include "Ch14_VirtualChild.h"
+#include "Ch15_PureVirtualChild.h"
+#include "Ch15_PureVirtualChild.h"
 using namespace std;
 
 //class 동적 선언
@@ -38,7 +41,25 @@ int main()
 
 	//ArrayClass();
 	//StringClass();
-	VectorClass();
+	//VectorClass();
+
+	//VirtualParent* Parent = new VirtualParent;
+	//VirtualChild* Child = new VirtualChild;
+
+	//Parent->PrintClass();
+	//Child->PrintClass();
+	//Parent = Child;
+	//Parent->PrintClass();
+
+	//PureVirtualChild PureChild;
+	//PureChild.Print();
+	//PureChild.PrintClass();
+
+	cout << SumNum(3, 2) << endl;
+	cout << SumNum(3.231f, 5.645f) << endl;
+	cout << SumType(3, 9) << endl;
+
+
 }
 
 
